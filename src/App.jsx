@@ -1,10 +1,12 @@
-
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
 function App() {
 
   return (
     <>
-      <h1 className="text-6xl">CIAO</h1>
+      <Nav />
+      <Footer />
     </>
   )
 }
