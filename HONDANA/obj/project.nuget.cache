@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Sl2NFa6Agr5PBgmf5QM+sqFKrt1Qjz+yuRWsoDg5zEtHApIyCTScr7DgBvRJBbhMsN55XDIUKhoVMqPJ9ypydQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Docente Cloud Dev\\Documents\\GitHub\\Hondana\\HONDANA\\HONDANA.sqlproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Docente Cloud Dev\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\Docente Cloud Dev\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net46\\1.0.0\\microsoft.netframework.referenceassemblies.net46.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
