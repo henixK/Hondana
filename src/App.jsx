@@ -1,6 +1,6 @@
-import Nav from "./components/Nav";
-import Footer from "./components/Footer";
-import Registrazione from "./pages/Registrazione";
+import Nav from "../components/Nav";
+import Footer from "../components/Footer";
+import Registrazione from "../pages/Registrazione";
 
 function App() {
 
@@ -12,5 +12,6 @@ function App() {
     </>
   )
 }
+
 
 export default App

@@ -1,3 +1,5 @@
+import MyComponent from '../componentes/MyComponent';
+
 export default function Registrazione(){
     return(
         <div>
@@ -9,6 +11,7 @@ export default function Registrazione(){
             <input type="text" id="cognome" name="cognome" placeholder="Inserisci cognome"/>
             <label for=""></label>
             <input type="submit" value="Invia Dati"/>
+            <MyComponent name="api_request" id="api_request"></MyComponent>
         </div>
         
     )
