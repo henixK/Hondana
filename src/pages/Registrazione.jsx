@@ -1,4 +1,4 @@
-import MyComponent from '../componentes/MyComponent';
+import MyComponent from './componentes/MyComponent';
 
 export default function Registrazione(){
     return(
