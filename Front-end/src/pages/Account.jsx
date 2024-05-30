@@ -14,7 +14,7 @@ export default function Account() {
                             <img className="w-full object-contain" src={bgLogin} alt="" />
                         </div>
                         <div className="w-full bg-white lg:py-10">
-                            <p className="text-3xl text-center my-10 uppercase font-extrabold">login</p>
+                        <h1 className="text-5xl font-nuku my-10 text-center">login</h1>
                             <LoginForm />
                         </div>
                     </div>

@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        nuku: ['Nuku', 'sans-serif'],
+      },
       colors: {
         'red-japan': '#D12D35',
         'white-japan': '#E4E2E7',

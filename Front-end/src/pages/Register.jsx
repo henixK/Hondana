@@ -15,7 +15,7 @@ export default function Register() {
                         <img className="w-full object-cover" src={bgLogin} alt="" />
                     </div>
                     <form action="" className="w-full lg:w-1/2 space-y-7 px-28 border flex flex-col justify-center items-center bg-white">
-                        <p className="text-3xl text-center uppercase font-extrabold">Register</p>
+                        <h1 className="text-5xl font-nuku ">Register</h1>
                         <InputfieldRegistration placeholder={"Name"} />
                         <InputfieldRegistration placeholder={"Cognome"} />
                         <InputfieldRegistration placeholder={"Data nascita"} />
