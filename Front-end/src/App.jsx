@@ -4,7 +4,7 @@ import About from './pages/About';
 import Catalogo from './pages/Catalogo';
 import Novità from './pages/Novità';
 import Account from './pages/Account';
-import Carrello from "./pages/Carrello";
+import Carello from "./pages/Carello";
 import Register from './pages/Register';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Route path="/Catalogo" element={<Catalogo />} />
         <Route path="/Novità" element={<Novità />} />
         <Route path="/Account" element={<Account />} />
-        <Route path="/Carrello" element={<Carrello />} />
+        <Route path="/Carello" element={<Carello />} />
         <Route path="/Register" element={<Register />} />
       </Routes>
     </>
