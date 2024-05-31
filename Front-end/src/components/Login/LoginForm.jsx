@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import InputField from './InputField';
 import { Link } from 'react-router-dom';
+import { Button } from '../ui/button';
+import { Input } from '../ui/input';
+
 
 export default function LoginForm() {
     const [email, setEmail] = useState('');
@@ -21,23 +23,20 @@ export default function LoginForm() {
     };
 
     return (
-        <form onSubmit={handleSubmit} className="w-full flex flex-col gap-10 items-center px-4 lg:px-32">
-            <InputField
+        <form onSubmit={handleSubmit} className="w-full flex flex-col gap-4 items-center px-4 lg:px-20">
+            <Input
                 type="email"
                 placeholder="Email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
             />
-            <InputField
+            <Input  
                 type="password"
                 placeholder="Password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
             />
-            <button type="submit" className="w-1/3 p-4 rounded-2xl bg-blue-japan text-white font-bold">
-                Login
-            </button>
-
+            <Button>Login</Button>
             <div className="flex flex-col items-center gap-2">
                 <p className="">Forgot your password?</p>
                 <div className='flex space-x-3 my-5'>

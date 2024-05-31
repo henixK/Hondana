@@ -8,7 +8,7 @@ export default function Home() {
         <>
             <Nav />
             <div className="h-screen">
-                <h1 className="text-center text-5xl font-bold font-nuku">Nuove Uscite</h1>
+                <h1 className="text-center text-5xl font-bold font-nuku my-10">Nuove Uscite</h1>
                 
             </div>
             <Footer />
