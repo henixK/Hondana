@@ -17,20 +17,20 @@ export default function Footer() {
 
     return (
         <NavigationMenu className="w-full bg-red-japan lg:flex lg:items-center relative">
-            <section className="w-full h-full my-5 flex items-center justify-between px-10 lg:px-10">
-                <NavigationMenuList className="flex space-x-10">
+            <section className="w-full h-full my-10 flex items-center justify-between px-10 lg:px-10">
+                <NavigationMenuList className="flex flex-col lg:flex-row lg:space-x-10">
                     <NavLink to="/Novità">Novità</NavLink>
                     <NavLink to="/Catalogo">Catalogo</NavLink>
                     <NavLink to="/About">Chi siamo</NavLink>
                     <NavLink to="/Account">Account</NavLink>
                 </NavigationMenuList>
-                <div className="space-y-6">
+                <div className="space-y-2">
                     <Link to={"https://github.com/henixK/Hondana"}><Github color={white} size={size} /></Link>
                     <div className="cursor-pointer"><Facebook color={white} size={size} /></div>
                     <div className="cursor-pointer"><Twitter color={white} size={size} /></div>
                 </div>
             </section>
-            <hr className="border-[0.1px] border-white lg:w-0 w-full lg:h-[200px] " />
+            <hr className="border-[0.1px] border-white lg:w-0 w-full lg:h-[200px]" />
             <section className="w-full h-full my-5 items-center flex justify-between px-10 lg:px-10">
                 <div className="flex flex-col">
                     <Info text={"Via Filippo de Magistris 69"} ><MapPin /></Info>
