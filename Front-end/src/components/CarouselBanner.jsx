@@ -32,12 +32,15 @@ export default function CarouselDApiDemo() {
     }, [api]);
 
     const plugin = React.useRef(
-        Autoplay({ delay: 3000, stopOnInteraction: false })
+        Autoplay({ delay: 3000, stopOnInteraction: false }),
+        
     );
 
     return (
         <div className="">
-            <Carousel plugins={[plugin.current]} setApi={setApi} className="w-full">
+            <Carousel plugins={[plugin.current]} opts={{
+                loop: true,
+            }} setApi={setApi} className="w-full">
                 <CarouselContent className="w-full ">
                     <CarouselItem className="w-full object-cover">
                         <img src={banner} alt="Banner" className="w-full h-full" />

@@ -1,6 +1,8 @@
+import { ShoppingCart } from "lucide-react"
+
 export default function Card({img, title, price }) {
     return (
-        <div className="w-[300px] h-max m-auto bg-white rounded-xl overflow-hidden">
+        <div className="w-[300px] h-max m-auto bg-blue-400 rounded-xl overflow-hidden">
             <div className="">
                 <div className=" text-black rounded-xl">
                     <div className="h-[400px] object-contain ">
@@ -13,7 +15,7 @@ export default function Card({img, title, price }) {
                         </div>
                         <div className="  flex bg-blue-japan px-5 py-2 rounded-xl">
                             <button className="text-white text-xl font-semibold">Aggiungi al Carello</button>
-                            <img src={cart} alt="" className="p-1"/>
+                            <ShoppingCart/>
                         </div>
                     </div>
                 </div>
