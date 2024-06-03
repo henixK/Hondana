@@ -2,7 +2,7 @@ import { ShoppingCart } from "lucide-react"
 
 export default function Card({img, title, price }) {
     return (
-        <div className="w-[300px] h-max m-auto bg-blue-400 rounded-xl overflow-hidden">
+        <div className="w-[300px] h-max m-auto bg-[#ECF0F1] rounded-xl overflow-hidden">
             <div className="">
                 <div className=" text-black rounded-xl">
                     <div className="h-[400px] object-contain ">
