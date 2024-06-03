@@ -5,12 +5,13 @@ import {
     CarouselItem,
 } from "./ui/carousel";
 import Autoplay from 'embla-carousel-autoplay';
+import { Link } from "react-router-dom";
 
 // banner
-import banner from "../assets/Frame.jpg";
-import banner1 from "../assets/Banner 2.jpg";
-import banner2 from "../assets/Banner 3 from WhatsApp.jpg";
-import banner3 from "../assets/banner-4.jpg";
+import banner from "../assets/Banner1.jpg";
+import banner1 from "../assets/Banner2.jpg";
+import banner2 from "../assets/Banner3.jpg";
+import banner3 from "../assets/Banner4.jpg";
 
 
 export default function CarouselDApiDemo() {
@@ -40,16 +41,24 @@ export default function CarouselDApiDemo() {
             <Carousel plugins={[plugin.current]} setApi={setApi} className="w-full">
                 <CarouselContent className="w-full ">
                     <CarouselItem className="w-full object-cover">
-                        <img src={banner} alt="Banner" className="w-full h-full" />
+                        <Link to="/Novità">
+                            <img src={banner} alt="Banner" className="w-full h-full cursor-pointer" />
+                        </Link>
                     </CarouselItem>
                     <CarouselItem className="w-full object-cover">
-                        <img src={banner1} alt="Banner" className="w-full h-full" />
+                        <Link to="">
+                            <img src={banner1} alt="Banner" className="w-full h-full cursor-pointer" />
+                        </Link>
                     </CarouselItem>
                     <CarouselItem className="w-full h-full object-cover">
-                        <img src={banner2} alt="Banner" className="w-full h-full" />
+                        <Link to="/Catalogo">
+                            <img src={banner2} alt="Banner" className="w-full h-full cursor-pointer" />
+                        </Link>
                     </CarouselItem>
                     <CarouselItem className="w-full h-full object-cover">
-                        <img src={banner3} alt="Banner" className="w-full h-full" />
+                        <Link to="">
+                            <img src={banner3} alt="Banner" className="w-full h-full cursor-pointer" />
+                        </Link>
                     </CarouselItem>
                 </CarouselContent>
             </Carousel>
