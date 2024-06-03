@@ -3,7 +3,6 @@ import Footer from "../components/Footer";
 import bgLogin from "../assets/bgLogin.jpeg";
 import Registrazione from "../components/Login/Registrazione";
 
-
 export default function Register() {
     return (
         <>
