@@ -34,7 +34,7 @@ export default function CarouselDApiDemo() {
 
     const plugin = React.useRef(
         Autoplay({ delay: 3000, stopOnInteraction: false }),
-        
+
     );
 
     return (
