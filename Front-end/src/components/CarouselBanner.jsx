@@ -1,11 +1,16 @@
 import * as React from "react";
-import { Card, CardContent } from "./ui/card";
 import {
     Carousel,
     CarouselContent,
     CarouselItem,
 } from "./ui/carousel";
+import Autoplay from 'embla-carousel-autoplay';
 
+// banner
+import banner from "../assets/Frame.jpg";
+import banner1 from "../assets/Banner 2.jpg";
+import banner2 from "../assets/Banner 3 from WhatsApp.jpg";
+import banner3 from "../assets/Banner 4.jpg";
 
 
 export default function CarouselDApiDemo() {
@@ -26,23 +31,26 @@ export default function CarouselDApiDemo() {
         });
     }, [api]);
 
+    const plugin = React.useRef(
+        Autoplay({ delay: 3000, stopOnInteraction: false })
+    );
+
     return (
-        <div className="w-full h-[500px] border-4 border-yellow-500">
-            <Carousel opts={{
-                align: "start",
-                autoplay: true,
-                loop: true,
-            }} setApi={setApi} className="w-full h-full">
-                <CarouselContent className="">
-                    {Array.from({ length: 5 }).map((_, index) => (
-                        <CarouselItem key={index} className="w-full h-full">
-                            <Card className="w-full border-2 border-yellow-500">
-                                <CardContent className="flex w-full h-full items-center justify-center p-6 border-4 border-blue-900">
-                                    <span className="text-4xl font-semibold">{index + 1}</span>
-                                </CardContent>
-                            </Card>
-                        </CarouselItem>
-                    ))}
+        <div className="">
+            <Carousel plugins={[plugin.current]} setApi={setApi} className="w-full">
+                <CarouselContent className="w-full ">
+                    <CarouselItem className="w-full object-cover">
+                        <img src={banner} alt="Banner" className="w-full h-full" />
+                    </CarouselItem>
+                    <CarouselItem className="w-full object-cover">
+                        <img src={banner1} alt="Banner" className="w-full h-full" />
+                    </CarouselItem>
+                    <CarouselItem className="w-full h-full object-cover">
+                        <img src={banner2} alt="Banner" className="w-full h-full" />
+                    </CarouselItem>
+                    <CarouselItem className="w-full h-full object-cover">
+                        <img src={banner3} alt="Banner" className="w-full h-full" />
+                    </CarouselItem>
                 </CarouselContent>
             </Carousel>
         </div>
