@@ -10,7 +10,7 @@ import Autoplay from 'embla-carousel-autoplay';
 import banner from "../assets/Frame.jpg";
 import banner1 from "../assets/Banner 2.jpg";
 import banner2 from "../assets/Banner 3 from WhatsApp.jpg";
-import banner3 from "../assets/Banner 4.jpg";
+import banner3 from "../assets/banner-4.jpg";
 
 
 export default function CarouselDApiDemo() {
