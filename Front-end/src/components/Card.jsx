@@ -1,6 +1,4 @@
-
 export default function Card({img, title, price }) {
-
     return (
         <div className="w-[300px] h-max m-auto bg-white rounded-xl overflow-hidden">
             <div className="">
