@@ -10,11 +10,11 @@ export default function Footer() {
     return (
         <footer className="w-full bg-red-japan lg:flex lg:items-center relative">
             <section className="w-full h-full my-5 flex items-center justify-between px-10 lg:px-10">
-                <div className="flex flex-col lg:flex-row">
-                    <NavLink to="/Novità" >Novità</NavLink>
-                    <NavLink to="/Catalogo">Catalogo</NavLink>
-                    <NavLink to="/About">Chi siamo</NavLink>
-                    <NavLink to="/Account">Account</NavLink>
+                <div>
+                    <NavLink>Novità</NavLink>
+                    <NavLink>Best seller</NavLink>
+                    <NavLink>Carello</NavLink>
+                    <NavLink>Account</NavLink>
                 </div>
                 <Social />
             </section>
