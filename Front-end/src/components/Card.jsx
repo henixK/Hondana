@@ -1,4 +1,3 @@
-import cart from "../assets/Cart.svg"
 
 export default function Card({img, title, price }) {
 
