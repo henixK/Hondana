@@ -7,6 +7,10 @@ export default function Home() {
     return (
         <>
             <Nav />
+            <div className="h-screen">
+                <h1 className="text-center text-5xl font-bold font-nuku my-10">Nuove Uscite</h1>
+                
+            </div>
             <Footer />
         </>
     )
