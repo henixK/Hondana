@@ -1,6 +1,6 @@
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-import progress from "../assets/progress.jpg";
+import GiphyEmbed from "../components/gif";
 
 
 export default function Carello() {
@@ -8,7 +8,7 @@ export default function Carello() {
         <>
             <Nav />
             <div className="h-screen flex items-center justify-center">
-                <img src={progress} alt="" />
+                <GiphyEmbed />
             </div>
             <Footer />
         </>

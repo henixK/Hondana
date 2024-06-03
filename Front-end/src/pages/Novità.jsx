@@ -1,16 +1,17 @@
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-import progress from "../assets/progress.jpg";
+import GiphyEmbed from "../components/gif";
+
 
 
 export default function Novità() {
     return (
         <>
             <Nav />
-            <h1>novita</h1>
-            <div className="h-screen flex items-center justify-center">
-                
-                <img src={progress} alt="" />
+
+            <div className="h-screen flex flex-col gap-10 items-center justify-center">
+                <h1>novita</h1>
+                <GiphyEmbed />
             </div>
             <Footer />
         </>
