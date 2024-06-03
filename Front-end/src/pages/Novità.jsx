@@ -6,6 +6,7 @@ export default function Novità() {
         <>
             <Nav />
             <div className="h-screen"></div>
+            novità
             <Footer />
         </>
     )
