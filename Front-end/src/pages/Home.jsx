@@ -14,7 +14,7 @@ export default function Home() {
                 <CarouselDApiDemo />
                 <div className="h-screen">
                     <h1 className="text-center text-3xl font-bold font-nuku my-10">Nuove Uscite</h1>
-                    <Card img={jjk}title={"Jujutsu Kasien v. 25"} price={"5,20€"} />
+                    <Card img={jjk}title={"Jujutsu Kaisen v. 25"} price={"5,20€"} />
                 </div>
             </div>
             <Footer />
