@@ -13,10 +13,10 @@ import jakarta.persistence.Table;
 @Table(name = "t_recensione")
 public class t_recensione {
 	private @Id @GeneratedValue(strategy = GenerationType.IDENTITY) Integer ID_RECENSIONE;
-	private @Column Date DATA_RECENSIONE;
-	private @Column Integer VOTO;
-	private @Column Integer ID_UTENTE;
-	private @Column Integer ID_MANGA;
+	private @Column (name = "DATA_RECENSIONE") Date DATA_RECENSIONE;
+	private @Column (name = "DATA_RECENSIONE") Integer VOTO;
+	private @Column (name = "DATA_RECENSIONE") Integer ID_UTENTE;
+	private @Column (name = "DATA_RECENSIONE") Integer ID_MANGA;
 	
 	private t_recensione(Integer ID_RECENSIONE , Date DATA_RECENSIONE , Integer VOTO , Integer ID_UTENTE , Integer ID_MANGA ) {
 		this.ID_RECENSIONE = ID_RECENSIONE;
@@ -30,40 +30,40 @@ public class t_recensione {
 		return ID_RECENSIONE;
 	}
 
-	public void setID_RECENSIONE(Integer iD_RECENSIONE) {
-		ID_RECENSIONE = iD_RECENSIONE;
+	public void setID_RECENSIONE(Integer ID_RECENSIONE) {
+		ID_RECENSIONE = ID_RECENSIONE;
 	}
 
 	public Date getDATA_RECENSIONE() {
 		return DATA_RECENSIONE;
 	}
 
-	public void setDATA_RECENSIONE(Date dATA_RECENSIONE) {
-		DATA_RECENSIONE = dATA_RECENSIONE;
+	public void setDATA_RECENSIONE(Date DATA_RECENSIONE) {
+		DATA_RECENSIONE = DATA_RECENSIONE;
 	}
 
 	public Integer getVOTO() {
 		return VOTO;
 	}
 
-	public void setVOTO(Integer vOTO) {
-		VOTO = vOTO;
+	public void setVOTO(Integer VOTO) {
+		VOTO = VOTO;
 	}
 
 	public Integer getID_UTENTE() {
 		return ID_UTENTE;
 	}
 
-	public void setID_UTENTE(Integer iD_UTENTE) {
-		ID_UTENTE = iD_UTENTE;
+	public void setID_UTENTE(Integer ID_UTENTE) {
+		ID_UTENTE = ID_UTENTE;
 	}
 
 	public Integer getID_MANGA() {
 		return ID_MANGA;
 	}
 
-	public void setID_MANGA(Integer iD_MANGA) {
-		ID_MANGA = iD_MANGA;
+	public void setID_MANGA(Integer ID_MANGA) {
+		ID_MANGA = ID_MANGA;
 	}
 	@ManyToOne
     @JoinColumn(name = "ID_UTENTE")

@@ -15,9 +15,9 @@ import jakarta.persistence.Table;
 @Table(name = "t_manga")
 public class t_manga {
 	private @Id @GeneratedValue(strategy = GenerationType.IDENTITY)Integer ID_MANGA;
-	private @Column String TITOLO;
-	private @Column Integer PREZZO;
-	private @Column Integer ID_AUTORE;
+	private @Column (name = "TITOLO") String TITOLO;
+	private @Column (name = "PREZZO")  Integer PREZZO;
+	private @Column (name = "ID_AUTORE") Integer ID_AUTORE;
 	
 	private t_manga(Integer ID_MANGA , String TITOLO ,  Integer PREZZO, Integer ID_AUTORE ) {
 		this.ID_MANGA = ID_MANGA;
@@ -30,32 +30,32 @@ public class t_manga {
 		return ID_MANGA;
 	}
 
-	public void setID_MANGA(Integer iD_MANGA) {
-		ID_MANGA = iD_MANGA;
+	public void setID_MANGA(Integer ID_MANGA) {
+		ID_MANGA = ID_MANGA;
 	}
 
 	public String getTITOLO() {
 		return TITOLO;
 	}
 
-	public void setTITOLO(String tITOLO) {
-		TITOLO = tITOLO;
+	public void setTITOLO(String TITOLO) {
+		TITOLO = TITOLO;
 	}
 
 	public Integer getPREZZO() {
 		return PREZZO;
 	}
 
-	public void setPREZZO(Integer pREZZO) {
-		PREZZO = pREZZO;
+	public void setPREZZO(Integer PREZZO) {
+		PREZZO = PREZZO;
 	}
 
 	public Integer getID_AUTORE() {
 		return ID_AUTORE;
 	}
 
-	public void setID_AUTORE(Integer iD_AUTORE) {
-		ID_AUTORE = iD_AUTORE;
+	public void setID_AUTORE(Integer ID_AUTORE) {
+		ID_AUTORE = ID_AUTORE;
 	}
 	@ManyToOne
     @JoinColumn(name = "ID_AUTORE")
@@ -64,5 +64,11 @@ public class t_manga {
 	private Set<t_recensione> t_recensione = new HashSet<>();
 	@OneToMany (mappedBy = "t_manga")
 	private Set<t_ordine_manga> t_ordine_manga = new HashSet<>();
+	@OneToMany (mappedBy = "t_manga")
+	private Set<r_manga_magazzino> r_manga_magazzino = new HashSet<>();
+	@OneToMany (mappedBy = "t_manga")
+	private Set<r_manga_genere> r_manga_genere = new HashSet<>();
+	@OneToMany (mappedBy = "t_manga")
+	private Set<r_manga_edizione> r_manga_edizione = new HashSet<>();
 
 }

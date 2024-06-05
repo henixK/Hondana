@@ -31,40 +31,40 @@ public class t_spedizione {
 		return ID_SPEDIZIONE;
 	}
 
-	public void setID_SPEDIZIONE(Integer iD_SPEDIZIONE) {
-		ID_SPEDIZIONE = iD_SPEDIZIONE;
+	public void setID_SPEDIZIONE(Integer ID_SPEDIZIONE) {
+		ID_SPEDIZIONE = ID_SPEDIZIONE;
 	}
 
 	public String getDESTINAZIONE() {
 		return DESTINAZIONE;
 	}
 
-	public void setDESTINAZIONE(String dESTINAZIONE) {
-		DESTINAZIONE = dESTINAZIONE;
+	public void setDESTINAZIONE(String DESTINAZIONE) {
+		DESTINAZIONE = DESTINAZIONE;
 	}
 
 	public Date getDATA_CONSEGNA() {
 		return DATA_CONSEGNA;
 	}
 
-	public void setDATA_CONSEGNA(Date dATA_CONSEGNA) {
-		DATA_CONSEGNA = dATA_CONSEGNA;
+	public void setDATA_CONSEGNA(Date DATA_CONSEGNA) {
+		DATA_CONSEGNA = DATA_CONSEGNA;
 	}
 
 	public String getCOMPAGNIA_DI_CONSEGNA() {
 		return COMPAGNIA_DI_CONSEGNA;
 	}
 
-	public void setCOMPAGNIA_DI_CONSEGNA(String cOMPAGNIA_DI_CONSEGNA) {
-		COMPAGNIA_DI_CONSEGNA = cOMPAGNIA_DI_CONSEGNA;
+	public void setCOMPAGNIA_DI_CONSEGNA(String COMPAGNIA_DI_CONSEGNA) {
+		COMPAGNIA_DI_CONSEGNA = COMPAGNIA_DI_CONSEGNA;
 	}
 
 	public Integer getID_ORDINE() {
 		return ID_ORDINE;
 	}
 
-	public void setID_ORDINE(Integer iD_ORDINE) {
-		ID_ORDINE = iD_ORDINE;
+	public void setID_ORDINE(Integer ID_ORDINE) {
+		ID_ORDINE = ID_ORDINE;
 	}
 	@ManyToOne
     @JoinColumn(name = "ID_ORDINE")

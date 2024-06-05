@@ -98,7 +98,5 @@ public class t_utente {
 	  private Set<t_ordine> t_ordine = new HashSet<>();
 	  @OneToMany (mappedBy = "t_utente")
 	  private Set<t_recensione> t_recensione = new HashSet<>();
-	  @OneToMany (mappedBy = "t_utente")
-	  private Set<t_ordine_manga> t_ordine_manga = new HashSet<>();
 
 }

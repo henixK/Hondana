@@ -29,28 +29,30 @@ public class t_ordine {
 		return ID_ORDINE;
 	}
 
-	public void setID_ORDINE(Integer iD_ORDINE) {
-		ID_ORDINE = iD_ORDINE;
+	public void setID_ORDINE(Integer ID_ORDINE) {
+		ID_ORDINE = ID_ORDINE;
 	}
 
 	public Date getDATA_ORDINE() {
 		return DATA_ORDINE;
 	}
 
-	public void setDATA_ORDINE(Date dATA_ORDINE) {
-		DATA_ORDINE = dATA_ORDINE;
+	public void setDATA_ORDINE(Date DATA_ORDINE) {
+		DATA_ORDINE = DATA_ORDINE;
 	}
 
 	public Integer getID_UTENTE() {
 		return ID_UTENTE;
 	}
 
-	public void setID_UTENTE(Integer iD_UTENTE) {
-		ID_UTENTE = iD_UTENTE;
+	public void setID_UTENTE(Integer ID_UTENTE) {
+		ID_UTENTE = ID_UTENTE;
 	}
 	@ManyToOne
     @JoinColumn(name = "ID_UTENTE")
     private t_utente t_utente;
 	@OneToMany (mappedBy = "t_ordine")
 	private Set<t_spedizione> t_spedizione = new HashSet<>();
+	@OneToMany (mappedBy = "t_ordine")
+	private Set<t_ordine_manga> t_ordine_manga = new HashSet<>();
 }

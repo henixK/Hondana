@@ -31,41 +31,43 @@ public class t_autore {
 		return ID_AUTORE;
 	}
 
-	public void setID_AUTORE(Integer iD_AUTORE) {
-		ID_AUTORE = iD_AUTORE;
+	public void setID_AUTORE(Integer ID_AUTORE) {
+		ID_AUTORE = ID_AUTORE;
 	}
 
 	public String getNOME() {
 		return NOME;
 	}
 
-	public void setNOME(String nOME) {
-		NOME = nOME;
+	public void setNOME(String NOME) {
+		NOME = NOME;
 	}
 
 	public String getCOGNOME() {
 		return COGNOME;
 	}
 
-	public void setCOGNOME(String cOGNOME) {
-		COGNOME = cOGNOME;
+	public void setCOGNOME(String COGNOME) {
+		COGNOME = COGNOME;
 	}
 
 	public Date getDATA_DI_NASCITA() {
 		return DATA_DI_NASCITA;
 	}
 
-	public void setDATA_DI_NASCITA(Date dATA_DI_NASCITA) {
-		DATA_DI_NASCITA = dATA_DI_NASCITA;
+	public void setDATA_DI_NASCITA(Date DATA_DI_NASCITA) {
+		DATA_DI_NASCITA = DATA_DI_NASCITA;
 	}
 
 	public String getNAZIONE() {
 		return NAZIONE;
 	}
 
-	public void setNAZIONE(String nAZIONE) {
-		NAZIONE = nAZIONE;
+	public void setNAZIONE(String NAZIONE) {
+		NAZIONE = NAZIONE;
 	}
 	@OneToMany (mappedBy = "t_autore")
-	  private Set<t_manga> t_manga = new HashSet<>();
+	private Set<t_manga> t_manga = new HashSet<>();
+	@OneToMany (mappedBy = "t_autore")
+	private Set<t_edizione> t_edizione = new HashSet<>();
 }
