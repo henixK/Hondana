@@ -1,6 +1,5 @@
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-import progress from "../assets/progress.jpg";
 import GiphyEmbed from "../components/gif";
 
 

@@ -5,7 +5,6 @@ import { cva } from "class-variance-authority";
 import { X } from "lucide-react"
 
 import { cn } from "../../lib/utils"
-import Hamburger from "hamburger-react";
 
 const Sheet = SheetPrimitive.Root
 
