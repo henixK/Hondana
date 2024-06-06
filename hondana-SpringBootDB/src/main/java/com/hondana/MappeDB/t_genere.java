@@ -42,5 +42,5 @@ public class t_genere {
     }
     
     @OneToMany (mappedBy = "t_genere")
-	private Set<r_manga_genere> r_manga_genere = new HashSet<>();
+	private Set<t_manga> t_manga = new HashSet<>();
 }

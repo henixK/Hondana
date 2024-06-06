@@ -36,6 +36,6 @@ public class r_manga_genere {
     private t_genere t_genere;
 
     @ManyToOne
-    @JoinColumn(name = "ID_MANGA")
+    @JoinColumn(name = "t_manga")
     private t_manga t_manga;
 }
