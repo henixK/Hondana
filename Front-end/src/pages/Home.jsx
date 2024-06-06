@@ -23,8 +23,12 @@ export default function Home() {
             <Nav />
             <div className="h-full text-center">
                 <CarouselDApiDemo />
-                <div>
-                    <h2 className="font-nuku my-10 text-2xl">le vostre recensioni</h2>
+                <h1 className="text-center text-7xl font-bold font-nuku my-5 pt-4">Nuove Uscite</h1>
+                <div className="cursor-pointer flex justify-center gap-[120px]">
+                    <Card img={jjk} title={"Jujutsu Kaisen"} vol={"volume 25"} price={"5,20€"} />
+                    <Card img={slave} title={"Demon Slave"} vol={"volume 10"} price={"5,20€"} />
+                    <Card img={mash} title={"Mashle"} vol={"variant- volume 2"} price={"6,50€"} />
+                    <Card img={solo} title={"Solo Leveling"} vol={"volume 17"} price={"9,90€"} />
                 </div>
                 <div className="flex justify-center pt-6">
                     <button className="bg-blue-japan text-white px-5 py-2 rounded-xl text-xl font-semibold hover:bg-light-blue-japan">Tutte le novità</button>
