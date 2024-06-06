@@ -1,0 +1,177 @@
+[
+    {
+        "id": 0,
+        "image": "./assets/copertine/copertine/copertine/aot.png",
+        "title": "Attack on Titan",
+        "vol": "variant - volume 34",
+        "description": "Un gigante che compare dal a distruggendo le mura della città. Quel giorno, l’umanità ricordò il terrore di essere controllati da loro... l’umiliazione di vivere come uccelli in gabbia. Tutto accadde 107 anni fa. L’intero genere umano... tranne pochi… fu divorato dai giganti. Tutta quella gente finì direttamente nello stomaco di quegli esseri. Fu così che i nostri antenati pensarono di costruire delle enormi mura che i giganti non avrebbero mai potuto oltrepassare. Riuscirono a creare un territorio al riparo dalla minaccia dei giganti, ma...tutto ciò fino a cinque anni fa. Ma ora è il nostro turno, degli esseri umani. D’ora in avanti... saremo noi a divorare i giganti! Adesso finalmente il genere umano può riprendersi la propria dignità. Possiamo vincere. Per l’umanità è il momento... di attaccare!"
+    },
+    {
+        "id": 1,
+        "image": "./assets/copertine/copertine/banana.jpg",
+        "title": "Banana Fish",
+        "vol": "volume 1",
+        "description": "Due parole rappresentano la chiave di un mistero violento che lega il destino di Ash Lynx a quello del fratello. Intensa, scorretta, magnetica, riecco l’opera che ha fatto storia in Giappone superando i confini di genere. Una nuova curatissima edizione per un manga classico, che presenta una colorazione gialla sui bordi del volume."
+    },
+    {
+        "id": 2,
+        "image": "./assets/copertine/bleach.png",
+        "title": "Bleach",
+        "vol": "variant - volume 34",
+        "description": "Ichigo Kurosaki è un ragazzo dotato di un’abilità molto particolare: è in grado di vedere i fantasmi. E se la sua vita è già pazzesca a causa di questo dono, immaginate cosa gli potrebbe succedere se diventasse… un dio della morte?! Un intreccio appassionante, animato da un cast di personaggi estremamente variegato e impreziosito da uno stile di disegno attentissimo ai dettagli e originale nella fusione effettuata di vecchie e nuove tendenze, strizzando l’occhio, soprattutto per quanto riguarda l’abbigliamento dei personaggi, alla moda alternativa streetwear."
+    },
+    {
+        "id": 3,
+        "image": "./assets/copertine/blue.png",
+        "title": "Blue Lock",
+        "vol": "varinat - volume 1",
+        "description": "L’eliminazione ai Mondiali di calcio del 2018 ha confermato i limiti della Nazionale nipponica. Lo spirito di squadra non basta: per vincere bisogna far gol! Ha così inizio il folle progetto di selezione dell’attaccante più egoista, colui che realizzerà il sogno calcistico del Giappone…"
+    },
+    {
+        "id": 4,
+        "image": "./assets/copertine/night.png",
+        "title": "Call of the Night",
+        "vol": "volume 7",
+        "description": "Incapace di trovare soddisfazione nella vita di tutti i giorni e affetto da una grave insonnia, Yamori Kou inizia a girovagare da solo per le strade della città nelle ore notturne. Una sera, Kou incontra una strana ragazza, Nanakusa Nazuna, la quale si offre di aiutarlo a curare la sua insonnia invitandolo a dormire accanto a lei a casa sua. Tuttavia, ben presto Kou scopre che non si tratta di un semplice scambio a senso unico..."
+    },
+    {
+        "id": 5,
+        "image": "./assets/copertine/cm12v.jpg",
+        "title": "Chainsaw Man",
+        "vol": "varinat - volume 12",
+        "description": "I miracoli a volte sono annunciati dal rombo assordante di una motosega. Senza famiglia, senza futuro, devil hunter per necessità. L'unico amico di Denji è il cane-motosega Pochita, un demone che, davanti a un'altra crudele beffa del fato, cambierà per sempre la vita del suo padrone..."
+    },
+    {
+        "id": 6,
+        "image": "./assets/copertine/dead.png",
+        "title": "Deadpool Samurai",
+        "vol": "volume 2",
+        "description": "Deadpool sbarca nei manga grazie a un'epica collaborazione tra Marvel e Shonen Jump+, il più pazzo antieroe americano esce dall'universo dei comics e si reca in Giappone per unirsi a una filiale ufficiale degli Avengers, la Samurai Squad..."
+    },
+    {
+        "id": 7,
+        "image": "./assets/copertine/death.jpg",
+        "title": "Death Note",
+        "vol": "volume 1",
+        "description": "Light Yagami è un geniale quanto cinico liceale diciassettenne. La vita lo tedia e il mondo, con la sua ingiustizia, lo disgusta profondamente. Ryuk è un dio della morte, che come tutti i suoi “colleghi” conduce da tempo immemorabile un’esistenza vuota e minata dalla noia. In cerca di distrazioni, Ryuk decide di abbandonare nel mondo degli uomini il suo Quaderno Della Morte, all’apparenza un semplice block notes, ma dotato di un tremendo potere, perché scrivere il nome di una persona sul Quaderno significa decretarne la morte. Dopo aver per caso trovato il Quaderno Della Morte, e averne compreso le potenzialità, Light decide di servirsene per cambiare il mondo, mentre Ryuk lo osserva divertito."
+    },
+    {
+        "id": 8,
+        "image": "./assets/copertine/slave.png",
+        "title": "Demon Slave",
+        "vol": "volume 10",
+        "description": "Parità dei sessi? Un concetto superato! Solo le ragazze possono mangiare i Momo e sviluppare incredibili poteri. Yuki si è dunque rassegnato a un’esistenza monotona e degradante… finché non incontra Kyoka! Diventando suo schiavo, potrà affrontare i mostruosi Shuki…"
+    },
+    {
+        "id": 9,
+        "image": "./assets/copertine/demon.png",
+        "title": "Demon Slayer",
+        "vol": "volume 11",
+        "description": "Giappone, albori del ventesimo secolo. Il giovane Tanjiro, un gentile venditore di carbone, vede la sua quotidianità stravolta dallo sterminio della famiglia ad opera di un demone. L'unica rimasta in vita è la sorella minore Nezuko, che tuttavia è stata trasformata in un demone a sua volta. Per farla tornare come prima e vendicarsi del mostro che ha ucciso la madre e i fratellini, Tanjiro si mette in viaggio con Nezuko. Ha così inizio questa storia di sangue, spade e avventura!"
+    },
+    {
+        "id": 10,
+        "image": "./assets/copertine/db1.jpg",
+        "title": "Dragn Ball",
+        "vol": "volume 1",
+        "description": "In un piccolo paese di montagna a migliaia di chilometri dalla civiltà vive un bambino di nome Goku, che ha una strana coda e una forza straordinaria. Un bel giorno Goku incontra Bulma, una ragazza di città che sta cercando le 'Sette Sfere del Drago', grazie alle quali è possibile evocare un drago leggendario pronto ad esaudire qualunque desiderio: inizia così il lungo viaggio dei due alla ricerca delle sfere. Lungo il cammino Goku troverà tanti amici, ma anche molti nemici, e scoprirà la vera natura del suo eccezionale potere."
+    },
+    {
+        "id": 11,
+        "image": "./assets/copertine/fairy.png",
+        "title": "Fairy Tail",
+        "vol": "volume 12",
+        "description": "Le 'gilde'... si tratta di luoghi in cui i maghi si riuniscono per trovare svariate offerte di lavoro, dalla ricerca di oggetti all'annientamento di mostri. Lucy è una ragazza che mira a diventare una maga di prima categoria, quando si imbatte in Natsu, dotato del potere di manipolare il fuoco, che la invita a entrare nella sua gilda... Fairy Tail, proprio quella che lei sognava! È un po' pericolosa ma molto divertente, esagerata e alquanto scombinata!"
+    },
+    {
+        "id": 12,
+        "image": "./assets/copertine/fire.jpg",
+        "title": "Fire Force",
+        "vol": "variant - volume 1",
+        "description": "A causa di un inspiegabile fenomeno che assale l'umanità, le persone iniziano a prendere fuoco spontaneamente. Solamente delle speciali squadre di vigili del fuoco possono estinguere quelle misteriose fiamme, grazie ad un'abilità che gli permette di manipolare il fuoco senza che questo abbia delle terribili conseguenze sul loro corpo."
+    },
+    {
+        "id": 13,
+        "image": "./assets/copertine/gach.png",
+        "title": "Gachiakuta",
+        "vol": "variant - volume 3",
+        "description": "In una baraccopoli abitata da discendenti di fuorilegge, il giovane Rudo si guadagna da vivere raccogliendo spazzatura tra continue discriminazioni. Un giorno, accusato di un crimine che non ha commesso, viene gettato in un luogo temuto da tutti: il Baratro. Laggiù, Rudo conoscerà il “ripulitore” Enjin, comincerà a intravedere la verità sul mondo e a manifestare la capacità di estrarre uno strano potere dagli oggetti dopo aver dato loro vita. Il ragazzo ha ora la possibilità di cambiare una realtà tremendamente ingiusta..."
+    },
+    {
+        "id": 14,
+        "image": "./assets/copertine/jojo.jpg",
+        "title": "Jojo",
+        "vol": "volume 10",
+        "description": "Durante la traversata verso Singapore, Jotaro e i suoi compagni vengono attaccati da un uomo misterioso, portatore di uno Stand chiamato Dark Blue Moon. Nella furia del combattimento la nave finisce per essere distrutta, ma i nostri vengono miracolosamente salvati da un mercantile di passaggio... quale sarà il prossimo Stand con il quale dovranno scontrarsi?!"
+    },
+    {
+        "id": 15,
+        "image": "./assets/copertine/lucca.jpg",
+        "title": "Jujutsu Kaisen",
+        "vol": "varinat - volume 1",
+        "description": "Yuji Itadori è uno studente del liceo fuori dalla norma che vive con suo nonno a Sendai,dove frequenta il Club di ricerca dell'Occulto. I suoi amici si troveranno nei guai dopo<br>aver trovato il dito mummificato di Ryomen Sukuna, la più feroce divinità demoniaca. Yuji per salvarli sarà costretto a ingoiare il dito, diventando tutt'uno con il demone.Sotto la guida del più potente degli stregoni, Satoru Gojo, entrerà nell'Istituto di ArtiOcculte di Tokyo, un'organizzazione che combatte le Maledizioni. Il suo destino è giàscritto: dovrà cercare tutte le 20 dita di Sukuna e ingerirle, per poi essere ucciso,ponendo fine una volta per tutte alla minaccia che alberga dentro di lui."
+    },
+    {
+        "id": 16,
+        "image": "./assets/copertine/jjk.png",
+        "title": "Jujutsu Kaisen",
+        "vol": "volume 14",
+        "description": "Yuji Itadori è uno studente del liceo fuori dalla norma che vive con suo nonno a Sendai,dove frequenta il Club di ricerca dell'Occulto. I suoi amici si troveranno nei guai dopo<br>aver trovato il dito mummificato di Ryomen Sukuna, la più feroce divinità demoniaca. Yuji per salvarli sarà costretto a ingoiare il dito, diventando tutt'uno con il demone.Sotto la guida del più potente degli stregoni, Satoru Gojo, entrerà nell'Istituto di ArtiOcculte di Tokyo, un'organizzazione che combatte le Maledizioni. Il suo destino è giàscritto: dovrà cercare tutte le 20 dita di Sukuna e ingerirle, per poi essere ucciso,ponendo fine una volta per tutte alla minaccia che alberga dentro di lui."
+    },
+    {
+        "id": 17,
+        "image": "./assets/copertine/kaiju.png",
+        "title": "Kaiju n.8",
+        "vol": "volume 8",
+        "description": "In Giappone il tasso di comparsa di kaiju è tra i più alti al mondo, tanto che enormi creature portatrici di distruzione lo invadono quasi quotidianamente. Kafka Hibino, che ora lavora per un’impresa specializzata nello smaltimento delle carcasse dei kaiju, un tempo aspirava a diventare un soldato delle Forze di Difesa, le unità speciali incaricate di sopprimere i mostri e difendere il Paese. Un giorno, però, un misterioso organismo si introduce nel corpo di Kafka, trasformandolo in quello che le Forze di Difesa battezzeranno col nome in codice di 'Kaiju No.8'..."
+    },
+    {
+        "id": 18,
+        "image": "./assets/copertine/mash.png",
+        "title": "Mashle",
+        "vol": "volume 15",
+        "description": "In un mondo alternativo in cui la magia viene utilizzata ogni giorno anche per l'azione più banale, nascere senza poteri è una disgrazia, e chi di poteri non ne ha viene considerato un indesiderabile e messo da parte o espulso dalla società. Mash, il protagonista, è un orfanello senza poteri magici che viene trovato da un anziano di buon cuore, che lo cresce nel profondo della foresta lontano da tutto e tutti per proteggerlo. I principali interessi di Mash sono i bignè alla crema e il culturismo, tanto che passa le sue giornate ad allenarsi, acquisendo una forza sovrumana. Ma la sua vita e quella del padre adottivo vengono messe in pericolo il giorno in cui un tipo losco scopre il loro segreto e li ricatta: li lascerà in pace soltanto se Mash si iscriverà all'Accademia MagicaEaston – una sorta di Hogwarts in cui solo i maghi più talentuosi vengono accettati – e dimostrerà di avere i poteri necessari per diventare il mago dell'anno. Mash accetterà la difficilissima sfida? I suoi muscoli e la forza che lo contraddistingue riusciranno a permettergli di prevalere fra incantesimi e sfide di stregoneria?"
+    },
+    {
+        "id": 19,
+        "image": "./assets/copertine/naruto.png",
+        "title": "Naruto",
+        "vol": "volume 46",
+        "description": "Orfano dalla nascita, Naruto Uzumaki è un ninja del Villaggio della Foglia, a cui piace fare dispetti in giro per attirare l'attenzione. Sebbene abbia solo dodici anni, già sogna di diventare un Hokage, ossia il ninja a capo del villaggio. Da sempre bambino emarginato, Naruto scopre quasi per caso la ragione per la quale tutti lo tengono a distanza: dentro di lui è sigillato lo spirito della Volpe a Nove Code, un gigantesco demone sovrannaturale che anni addietro aveva raso al suolo la Foglia. Dopo essere entrato all'Accademia ninja, Naruto viene inserito nel gruppo 7, composto da Sasuke Uchiha e Sakura Haruno, e guidato dal maestro Kakashi Hatake. Fra molteplici avventure in paesi dalle diverse culture e combattimenti avvincenti contro avversari pericolosi, inizia per Naruto un viaggio alla scoperta di se stesso, delle sue origini, del valore dell'amicizia e dell'onore di essere ninja."
+    },
+    {
+        "id": 20,
+        "image": "./assets/copertine/op.png",
+        "title": "One Piece",
+        "vol": "volume 103",
+        "description": "Monkey D. Rufy è un giovane pirata sognatore che da piccolo ha inavvertitamente mangiato il frutto del diavolo Gom Gom che lo rende 'elastico', permettendogli di allungarsi e deformarsi a piacimento, a scapito, però, della capacità di nuotare. L'obiettivo che lo ha spinto in mare è quello ambizioso di diventare il 're dei pirati'. Dovrà, dunque, ritrovare il leggendario 'One Piece', il magnifico tesoro lasciato dal mitico pirata Gold Roger sull'isola di Raftel, alla fine della Rotta Maggiore, mai ritrovato e sogno di ogni pirata."
+    },
+    {
+        "id": 21,
+        "image": "./assets/copertine/shangri.png",
+        "title": "Shangri-la Frontier",
+        "vol": "volume 5",
+        "description": "Per Rakuro nessun videogame è troppo brutto per essere giocato...anzi, lui adora scovare proprio i titoli che nessuno al mondo vorrebbe completare. Adesso però vuole mettersi alla prova con il gioco del momento: Shangri-La Frontier. Sarà all’altezza della sfida o dovrà rinunciare come il più scarso dei niubbi?"
+    },
+    {
+        "id": 22,
+        "image": "./assets/copertine/solo.png",
+        "title": "Solo Leveling",
+        "vol": "volume 14",
+        "description": "Il 'Gate', un misterioso portale che collega il mondo umano a quello di terribili mostri, mette a rischio la vita degli esseri umani. Delle persone con particolari poteri, gli 'hunter', combattono per contrastarli. Sung Jinwoo è molto debole, senza particolari abilità, ed è schedato come hunter di 'livello E'. Nonostante questo, cerca di fare del suo meglio per portare avanti il suo compito e pagare le spese mediche della madre. Ma un giorno, a seguito di un inspiegabile evento, Jinwoo comincia a sviluppare i suoi poteri... che possa diventare un imbattibile hunter di 'livello S'?"
+    },
+    {
+        "id": 23,
+        "image": "./assets/copertine/spy.png",
+        "title": "Spy x Family",
+        "vol": "volume 4",
+        "description": "Nome in codice: Twilight. Può mutare il proprio volto in un secondo. Può sventare il lancio di un missile un attimo prima dell’irreparabile. Può portare a compimento imprese impossibili. Niente però l’ha preparato alla prossima missione: trovare moglie (e figlio!) in una settimana…"
+    },
+    {
+        "id": 24,
+        "image": "./assets/copertine/copertine/tokyo.png",
+        "title": "Tokyo Revengers",
+        "vol": "volume 31",
+        "description": "Guardando il notiziario, Takemichi Hanagaki scopre che la sua fidanzata dei tempi della scuola media, Hinata Tachibana, è morta. L'unica ragazza che abbia mai avuto è stata appena uccisa da una gang conosciuta come Tokyo Manji Gang. Takemichi vive in un brutto appartamento fatiscente e il suo capo lo tratta come un idiota. Inoltre, è ancora vergine. Nel momento in cui la sua vita tocca il fondo, improvvisamente balza nel tempo di dodici anni indietro, fino ai giorni delle medie. Per salvare Hinata e cambiare la vita che ha trascorso scappando, il senza speranza Takemichi deve puntare al vertice della banda di delinquenti più pericolosa del Kanto..."
+    }
+]
