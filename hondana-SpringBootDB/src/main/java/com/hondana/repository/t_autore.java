@@ -68,6 +68,4 @@ public class t_autore {
 	}
 	@OneToMany (mappedBy = "t_autore")
 	private Set<t_manga> t_manga = new HashSet<>();
-	@OneToMany (mappedBy = "t_autore")
-	private Set<t_edizione> t_edizione = new HashSet<>();
 }

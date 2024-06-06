@@ -58,9 +58,6 @@ public class t_edizione {
         ID_AUTORE = ID_AUTORE;
     }
 
-    @ManyToOne
-    @JoinColumn(name = "ID_AUTORE")
-    private t_autore t_autore;
     @OneToMany (mappedBy = "t_manga")
 	private Set<r_manga_edizione> r_manga_edizione = new HashSet<>();
     
