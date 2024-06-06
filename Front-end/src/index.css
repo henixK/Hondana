@@ -11,6 +11,7 @@
 
 h1 {
     @apply font-nuku text-6xl text-center
+    text-black-japan
 }
 
 @layer base {
