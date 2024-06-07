@@ -1,15 +1,6 @@
 {
+    "version": "0.2.0",    
     "configurations": [
-        {
-            "type": "java",
-            "name": "Spring Boot-HondanaApplication<demo>",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "mainClass": "com.example.demo.HondanaApplication",
-            "projectName": "demo",
-            "args": "",
-            "envFile": "${workspaceFolder}/.env"
-        },
         {
             "type": "java",
             "name": "Spring Boot-HondanaApplication<hondana>",
