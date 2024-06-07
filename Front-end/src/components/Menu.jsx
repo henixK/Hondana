@@ -15,9 +15,10 @@ export default function MenuLeft() {
             <SheetContent side={"left"} className="w-[150px] lg:w-[450px] bg-red-japan flex flex-col border-none py-36 px-4 lg:px-12">
                 <NavigationMenuList className=" space-y-10">
                     <NavLink to="/Novità">Novità</NavLink>
-                    <NavLink to="/Catalogo">Catalogo</NavLink>
+                    <NavLink to="/Catalogo">Manga</NavLink>
+                    <NavLink to="/Funko">Funko</NavLink>
                     <NavLink to="/About">Chi siamo</NavLink>
-                    <NavLink to="/Accedi">Accedi</NavLink>
+                    <NavLink to="/Account">Accedi</NavLink>
                 </NavigationMenuList>
             </SheetContent>
         </Sheet>

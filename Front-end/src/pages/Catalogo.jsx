@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import Card from "../components/Card";
-import op from "../data/op.json";
+import catalogo from "../data/catalogo.json";
 
 const ITEMS_PER_PAGE = 25;
 
 export default function Catalogo() {
   const [currentPage, setCurrentPage] = useState(1);
 
-  const totalPages = Math.ceil(op.length / ITEMS_PER_PAGE);
+  const totalPages = Math.ceil(catalogo.length / ITEMS_PER_PAGE);
 
   const handleClick = (pageNumber) => {
     setCurrentPage(pageNumber);
@@ -30,7 +30,7 @@ export default function Catalogo() {
     }
   };
 
-  const currentItems = op.slice(
+  const currentItems = catalogo.slice(
     (currentPage - 1) * ITEMS_PER_PAGE,
     currentPage * ITEMS_PER_PAGE
   );
@@ -59,7 +59,7 @@ export default function Catalogo() {
     <div>
       <Nav />
       <div className="flex flex-col gap-10 items-center justify-center my-10">
-        <h1 className="text-center text-7xl font-bold font-nuku my-5 pt-4">Catalogo</h1>
+        <h1 className="text-center text-7xl font-bold font-nuku my-5 pt-4">Catalogo - Manga</h1>
         <div className="cursor-pointer grid grid-cols-5 justify-center gap-[70px]">
           {currentItems.map((volume, index) => (
             <Card key={index} img={volume.img} title={volume.title} vol={volume.vol} price={volume.price} />
@@ -67,16 +67,16 @@ export default function Catalogo() {
         </div>
         <div className="flex gap-2 mt-5 items-center">
           <button
-            className="text-white px-4 py-2 bg-blue-japan"
+            className="text-xl font-semibold text-black-japan px-4 py-2 hover:text-white hover:bg hover:bg-blue-japan rounded-xl"
             onClick={handlePrevious}
             disabled={currentPage === 1}
           >
-            &lt;
+            &lt; Precedente
           </button>
           {renderPageNumbers().map((pageNumber, index) => (
             <button
               key={index}
-              className={`text-white px-4 py-2 ${currentPage === pageNumber ? 'bg-light-blue-japan' : 'bg-blue-japan'}`}
+              className={`text-black-japan text-xl px-4 py-2 ${currentPage === pageNumber ? 'text-white rounded-lg bg-blue-japan' : 'bg-white'}`}
               onClick={() => handleClick(pageNumber)}
               disabled={pageNumber === '...'}
             >
@@ -84,11 +84,11 @@ export default function Catalogo() {
             </button>
           ))}
           <button
-            className="text-l font-semibold text-black-japan px-4 py-2 hover:border hover:border-blue-japan rounded-xl"
+            className="text-xl font-semibold text-black-japan px-4 py-2 hover:text-white hover:bg hover:bg-blue-japan rounded-lg"
             onClick={handleNext}
             disabled={currentPage === totalPages}
           >
-            &gt;
+            Successivo &gt;
           </button>
         </div>
       </div>

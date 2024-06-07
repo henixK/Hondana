@@ -9,7 +9,7 @@ export default function Card({img, title, vol, price }) {
                     <div className="w-full h-full flex flex-col justify-center items-center gap-4">
                         <div className="w-full  text-right">
                             <h2 className="text-3xl font-semibold font-blomberg text-center pb-2">{title}</h2  >
-                            <div className="px-11">
+                            <div className="px-10">
                                 <p className="text-lg ">{vol}</p>
                                 <p className="font-semibold text-2xl">{price}</p>
                             </div>
