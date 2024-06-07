@@ -8,7 +8,7 @@ export default function About() {
             <section className="h-full ">
                 <div className="w-full lg:w-1/2 h-min px-10 my-10 space-y-8 text-center lg:text-justify">
                     <div className="space-y-3 border p-6 rounded-lg shadow-lg bg-blue-japan text-white">
-                        <h1 className="font-nuku text-4xl text-center">Chi Siamo</h1>
+                        <h1 className="font-nuku text-4xl text-center text-white">Chi Siamo</h1>
                         <p>
                             Benvenuti su Hondana, la vostra libreria di manga giapponesi! Fondata dalla passione per la cultura del fumetto giapponese, Hondana nasce con l'obiettivo di portare le storie, le avventure e le emozioni dei manga direttamente a casa vostra.
                         </p>

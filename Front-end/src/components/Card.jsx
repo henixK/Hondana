@@ -1,6 +1,6 @@
 export default function Card({img, title, vol, price }) {
     return (
-        <div className="w-[300px] h-[590px] bg-[#ECF0F1] rounded-xl overflow-hidden border border-[#ECF0F1] hover:shadow-md hover:shadow-slate-400">
+        <div className="w-[300px] h-[580px] bg-[#ECF0F1] rounded-xl overflow-hidden border border-[#ECF0F1] hover:shadow-md hover:shadow-slate-400">
             <div className="">
                 <div className=" text-black rounded-xl">
                     <div className="h-[400px] object-contain">
@@ -8,7 +8,7 @@ export default function Card({img, title, vol, price }) {
                     </div>
                     <div className="w-full h-full flex flex-col justify-center items-center gap-4">
                         <div className="w-full  text-right">
-                            <h2 className="text-3xl font-bold text-center pb-2">{title}</h2  >
+                            <h2 className="text-3xl font-semibold font-blomberg text-center pb-2">{title}</h2  >
                             <div className="px-11">
                                 <p className="text-lg ">{vol}</p>
                                 <p className="font-semibold text-2xl">{price}</p>

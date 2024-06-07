@@ -19,6 +19,7 @@ module.exports = {
     extend: {
       fontFamily: {
         nuku: ['Nuku', 'sans-serif'],
+        blomberg: ['Blomberg', 'sans-serif'],
       },
       colors: {
         'red-japan': '#D12D35',
