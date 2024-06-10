@@ -17,7 +17,7 @@ import mash from "../assets/copertine/mashle-1.jpg";
 import gear from "../assets/figure/gear-5.jpg";
 import sukuna from "../assets/figure/sukuna.jpg";
 import tengen from "../assets/figure/tengen.jpg";
-import goku from "../assets/figure/goku.jpg";
+import goku from "../assets/figure/rosé.jpg";
 
 
 export default function Home() {
@@ -53,10 +53,10 @@ export default function Home() {
                 </div>
                 <h1 className="text-center text-7xl font-bold my-5 pt-9">Funko Pop</h1>
                 <div className="cursor-pointer flex justify-center gap-[120px]">
-                    <Card img={gear} title={"Luffy Gear Five"} vol={"One Piece"} price={"18,90€"} />
-                    <Card img={sukuna} title={"Ryomen Sukuna"} vol={"Jujutsu Kaisen"} price={"28,90€"} />
-                    <Card img={tengen} title={"Tengen Uzui"} vol={"Demon Slayer"} price={"18,90€"} />
-                    <Card img={goku} title={"Super Saiyan Goku"} vol={"Dragon Ball"} price={"18,90€"} />
+                    <Card img={gear} title={"Luffy Gear Five"} vol={"One Piece"} price={"16,00€"} />
+                    <Card img={sukuna} title={"Ryomen Sukuna"} vol={"Jujutsu Kaisen"} price={"34,90€"} />
+                    <Card img={tengen} title={"Tengen Uzui"} vol={"Demon Slayer"} price={"16,00€"} />
+                    <Card img={goku} title={"SSJ Rose Goku Black"} vol={"Dragon Ball"} price={"18,00€"} />
                 </div>
                 <div className="flex justify-center pt-8 pb-10">
                     <Link to="/Funko">

@@ -1,37 +1,37 @@
 [
-    { "img": "/src/assets/figure/eren.jpg", "title": "Eren Jaeger", "vol": "Attack on Titan", "price": "18,90€" },
-    { "img": "/src/assets/figure/levi.jpg", "title": "Levi", "vol": "Attack on Titan", "price": "18,90€" },
-    { "img": "/src/assets/figure/hammer-titan.jpg", "title": "War Hammer Titan", "vol": "Attack on Titan", "price": "28,90€" },
+    { "img": "/src/assets/figure/eren.jpg", "title": "Eren Jaeger", "vol": "Attack on Titan", "price": "16,00€" },
+    { "img": "/src/assets/figure/levi.jpg", "title": "Levi", "vol": "Attack on Titan", "price": "18,00€" },
+    { "img": "/src/assets/figure/hammer-titan.jpg", "title": "War Hammer Titan", "vol": "Attack on Titan", "price": "34,90€" },
 
-    { "img": "/src/assets/figure/ichigo.jpg", "title": "Ichigo Kurosaki", "vol": "Bleach", "price": "18,90€" },
+    { "img": "/src/assets/figure/ichigo.jpg", "title": "Ichigo Kurosaki", "vol": "Bleach", "price": "16,00€" },
 
-    { "img": "/src/assets/figure/rengoku.jpg", "title": "Kyojuro Rengoku", "vol": "Demon Slayer", "price": "18,90€" },
-    { "img": "/src/assets/figure/tengen.jpg", "title": "Tengen Uzui", "vol": "Demon Slayer", "price": "18,90€" },
+    { "img": "/src/assets/figure/rengoku.jpg", "title": "Kyojuro Rengoku", "vol": "Demon Slayer", "price": "16,00€" },
+    { "img": "/src/assets/figure/tengen.jpg", "title": "Tengen Uzui", "vol": "Demon Slayer", "price": "16,00€" },
 
-    { "img": "/src/assets/figure/buutenks.jpg", "title": "Super Buu with Ghost", "vol": "Dragon Ball", "price": "18,90€" },
-    { "img": "/src/assets/figure/rosé.jpg", "title": "SSJ Rose Goku Black", "vol": "Dragon Ball", "price": "18,90€" },
-    { "img": "/src/assets/figure/goku.jpg", "title": "Super Saiyan Goku", "vol": "Dragon Ball", "price": "18,90€" },
+    { "img": "/src/assets/figure/buutenks.jpg", "title": "Super Buu with Ghost", "vol": "Dragon Ball", "price": "18,00€" },
+    { "img": "/src/assets/figure/rosé.jpg", "title": "SSJ Rose Goku Black", "vol": "Dragon Ball", "price": "18,00€" },
+    { "img": "/src/assets/figure/goku.jpg", "title": "Super Saiyan Goku", "vol": "Dragon Ball", "price": "16,00€" },
 
-    { "img": "/src/assets/figure/laxus.jpg", "title": "Laxus Dreyar", "vol": "Fairy Tail", "price": "18,90€" },
+    { "img": "/src/assets/figure/laxus.jpg", "title": "Laxus Dreyar", "vol": "Fairy Tail", "price":"16,00€" },
 
-    { "img": "/src/assets/figure/killua.jpg", "title": "Killua Zoldyck", "vol": "Hunter x Hunter", "price": "18,90€" },
+    { "img": "/src/assets/figure/killua.jpg", "title": "Killua Zoldyck", "vol": "Hunter x Hunter", "price":"18,00€" },
 
-    { "img": "/src/assets/figure/todo.jpg", "title": "Aoi Todo", "vol": "Jujutsu Kaisen", "price": "21,90€" },
-    { "img": "/src/assets/figure/nanami.jpg", "title": "Kento Nanami", "vol": "Jujutsu Kaisen", "price": "21,90€" },
-    { "img": "/src/assets/figure/sukuna.jpg", "title": "Ryomen Sukuna", "vol": "Jujutsu Kaisen", "price": "28,90€" },
-    { "img": "/src/assets/figure/gojo.jpg", "title": "Satoru Gojo", "vol": "Jujutsu Kaisen", "price": "18,90€" },
+    { "img": "/src/assets/figure/todo.jpg", "title": "Aoi Todo", "vol": "Jujutsu Kaisen", "price": "18,00€" },
+    { "img": "/src/assets/figure/nanami.jpg", "title": "Kento Nanami", "vol": "Jujutsu Kaisen", "price": "18,00€" },
+    { "img": "/src/assets/figure/sukuna.jpg", "title": "Ryomen Sukuna", "vol": "Jujutsu Kaisen", "price": "34,90€" },
+    { "img": "/src/assets/figure/gojo.jpg", "title": "Satoru Gojo", "vol": "Jujutsu Kaisen", "price":"18,00€" },
 
-    { "img": "/src/assets/figure/deku.jpg", "title": "Infinite Deku with Eri", "vol": "My Hero Academia", "price": "18,90€" },
-    { "img": "/src/assets/figure/mirko.jpg", "title": "Mirko", "vol": "My Hero Academia", "price": "18,90€" },
+    { "img": "/src/assets/figure/deku.jpg", "title": "Infinite Deku with Eri", "vol": "My Hero Academia", "price":"16,00€" },
+    { "img": "/src/assets/figure/mirko.jpg", "title": "Mirko", "vol": "My Hero Academia", "price":"16,00€" },
 
-    { "img": "/src/assets/figure/madara.jpg", "title": "Madara Uchiha", "vol": "Naruto", "price": "21,90€" },
-    { "img": "/src/assets/figure/nagato.jpg", "title": "Nagato", "vol": "Naruto", "price": "21,90€" },
+    { "img": "/src/assets/figure/madara.jpg", "title": "Madara Uchiha", "vol": "Naruto", "price": "18,00€" },
+    { "img": "/src/assets/figure/nagato.jpg", "title": "Nagato", "vol": "Naruto", "price": "18,00€" },
 
-    { "img": "/src/assets/figure/floffy.jpg", "title": "D. Doflamingo", "vol": "One Piece", "price": "18,90€" },
-    { "img": "/src/assets/figure/gear-5.jpg", "title": "Luffy Gear Five", "vol": "One Piece", "price": "18,90€" },
-    { "img": "/src/assets/figure/katakuri.jpg", "title": "Katakuri", "vol": "One Piece", "price": "18,90€" },
-    { "img": "/src/assets/figure/yamato.jpg", "title": "Yamato", "vol": "One Piece", "price": "28,90€" },
+    { "img": "/src/assets/figure/floffy.jpg", "title": "D. Doflamingo", "vol": "One Piece", "price":"16,00€" },
+    { "img": "/src/assets/figure/gear-5.jpg", "title": "Luffy Gear Five", "vol": "One Piece", "price":"16,00€" },
+    { "img": "/src/assets/figure/katakuri.jpg", "title": "Katakuri", "vol": "One Piece", "price":"16,00€" },
+    { "img": "/src/assets/figure/yamato.jpg", "title": "Yamato", "vol": "One Piece", "price": "34,90€" },
 
-    { "img": "/src/assets/figure/mewtwo.jpg", "title": "Mewtwo", "vol": "Pokemon", "price": "18,90€" },
-    { "img": "/src/assets/figure/psyduck.jpg", "title": "Psyduck", "vol": "Pokemon", "price": "18,90€" }
+    { "img": "/src/assets/figure/mewtwo.jpg", "title": "Mewtwo", "vol": "Pokemon", "price":"16,00€" },
+    { "img": "/src/assets/figure/psyduck.jpg", "title": "Psyduck", "vol": "Pokemon", "price":"16,00€" }
 ]
