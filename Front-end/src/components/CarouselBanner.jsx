@@ -42,7 +42,7 @@ export default function CarouselDApiDemo() {
             <Carousel plugins={[plugin.current]} opts={{
                 loop: true,
             }} setApi={setApi} className="w-full">
-                <CarouselContent className="w-full ">
+                <CarouselContent className="w-[1920px] ">
                     <CarouselItem className="w-full object-cover">
                         <Link to="/Novità">
                             <img src={banner} alt="Banner" className="w-full h-full cursor-pointer" />

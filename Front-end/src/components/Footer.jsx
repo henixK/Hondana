@@ -19,7 +19,8 @@ export default function Footer() {
             <section className="w-full h-full my-10 flex items-center justify-between px-10 py-12 lg:py-0 lg:px-10">
                 <NavigationMenuList className="flex flex-col lg:flex-row gap-8 lg:gap-6  ">
                     <NavLink to="/Novità">Novità</NavLink>
-                    <NavLink to="/Catalogo">Catalogo</NavLink>
+                    <NavLink to="/Catalogo">Manga</NavLink>
+                    <NavLink to="/Funko">Funko</NavLink>
                     <NavLink to="/About">Chi siamo</NavLink>
                     <NavLink to="/Account">Account</NavLink>
                 </NavigationMenuList>

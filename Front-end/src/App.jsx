@@ -6,6 +6,7 @@ import Novità from './pages/Novità';
 import Account from './pages/Account';
 import Carello from "./pages/Carello";
 import Register from './pages/Register';
+import Funko from './pages/Funko';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/Catalogo" element={<Catalogo />} />
+        <Route path="/Funko" element={<Funko />} />
         <Route path="/Novità" element={<Novità />} />
         <Route path="/Account" element={<Account />} />
         <Route path="/Carello" element={<Carello />} />
