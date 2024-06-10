@@ -1,11 +1,14 @@
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
+import about from "../assets/about.jpg";
+import its from "../assets/its.png";
 
 export default function About() {
     return (
         <>
             <Nav />
-            <section className="h-full ">
+            <section className="h-full flex flex-col lg:flex-row">
+
                 <div className="w-full lg:w-1/2 h-min px-10 my-10 space-y-8 text-center lg:text-justify">
                     <div className="space-y-3 border p-6 rounded-lg shadow-lg bg-blue-japan text-white">
                         <h1 className="font-nuku text-4xl text-center text-white">Chi Siamo</h1>
@@ -47,9 +50,12 @@ export default function About() {
                         </p>
                     </div>
                 </div>
-
+                <div className="w-full lg:w-1/2 lg:flex-none py-[300px] px-5">
+                    <img className="rounded-lg shadow-lg" src={about} />
+                    <p className="text-black-japan font-blomberg text-xl text-center">"francesca dacce un bel voto!"</p>
+                </div>
             </section>
             <Footer />
         </>
-    )
+    );
 }

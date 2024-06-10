@@ -7,9 +7,11 @@
     { "img": "/src/assets/figure/sukuna.jpg", "title": "Ryomen Sukuna", "vol": "Jujutsu Kaisen", "price": "28,90€" },
     { "img": "/src/assets/copertine/db-25.jpg", "title": "Dragon Ball", "vol": "Deluxe Edition - volume 25", "price": "14,90€" },
     { "img": "/src/assets/copertine/speziale-12.jpg", "title": "I Diari della Speziale", "vol": "volume 12", "price": "6,50€" },
+    { "img": "/src/assets/copertine/exor-1.jpg", "title": "Make the Exorci . . .", "vol": "volume 1", "price": "6,50€" },
+    { "img": "/src/assets/copertine/slave-14.jpg", "title": "Demon Slave", "vol": "volume 14", "price": "5,20€" },
     { "img": "/src/assets/figure/tengen.jpg", "title": "Tengen Uzui", "vol": "Demon Slayer", "price": "18,90€" },
-    { "img": "/src/assets/copertine/op-103.jpg", "title": "One Piece", "vol": "New Edition - volume 103", "price": "5,20€" },
     { "img": "/src/assets/figure/gear-5.jpg", "title": "Luffy Gear Five", "vol": "One Piece", "price": "18,90€" },
+    { "img": "/src/assets/copertine/op-103.jpg", "title": "One Piece", "vol": "New Edition - volume 103", "price": "5,20€" },
     { "img": "/src/assets/copertine/solo-17.jpg", "title": "Solo Leveling", "vol": "volume 17", "price": "9,90€" },
     { "img": "/src/assets/figure/madara.jpg", "title": "Madara Uchiha", "vol": "Naruto", "price": "21,90€" },
     { "img": "/src/assets/copertine/exor-1-v2.jpg", "title": "Make the Exorci . . .", "vol": "variant - volume 1", "price": "7,50€" }

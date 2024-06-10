@@ -126,6 +126,7 @@
 
     { "img": "/src/assets/copertine/kaiju-8.jpg", "title": "Kaiju n.8", "vol": "volume 8", "price": "5,20€" },
 
+    { "img": "/src/assets/copertine/exor-1.jpg", "title": "Make the Exorci . . .", "vol": "volume 1", "price": "6,50€" },
     { "img": "/src/assets/copertine/exor-1-v1.jpg", "title": "Make the Exorci . . .", "vol": "variant - volume 1", "price": "7,50€" },
     { "img": "/src/assets/copertine/exor-1-v2.jpg", "title": "Make the Exorci . . .", "vol": "variant - volume 1", "price": "7,50€" },
 
