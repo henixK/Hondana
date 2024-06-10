@@ -1,4 +1,6 @@
 [
+    { "img": "/src/assets/copertine/aot-33.jpg", "title": "Attack on Titan", "vol": "volume 33", "price": "5,20€" },
+
     { "img": "/src/assets/copertine/bleach-48.jpg", "title": "Bleach", "vol": "volume 48", "price": "5,20€" },
 
     { "img": "/src/assets/copertine/blue-1.jpg", "title": "Blue Lock", "vol": "volume 1", "price": "7,00€" },
