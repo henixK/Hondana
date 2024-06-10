@@ -1,5 +1,4 @@
 [
-
     { "img": "/src/assets/figure/eren.jpg", "title": "Eren Jaeger", "vol": "Attack on Titan", "price": "18,90€" },
     { "img": "/src/assets/figure/levi.jpg", "title": "Levi", "vol": "Attack on Titan", "price": "18,90€" },
     { "img": "/src/assets/figure/hammer-titan.jpg", "title": "War Hammer Titan", "vol": "Attack on Titan", "price": "28,90€" },

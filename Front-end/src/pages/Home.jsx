@@ -2,6 +2,7 @@ import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import CarouselDApiDemo from "../components/CarouselBanner";
 import Card from "../components/Card";
+import { Link } from "react-router-dom";
 
 import jjk from "../assets/copertine/jjk-25.jpg";
 import db from "../assets/copertine/db-25.jpg";
@@ -33,8 +34,10 @@ export default function Home() {
                     <Card img={hero} title={"My Hero Academia"} vol={"volume 38"} price={"5,20€"} />
                     <Card img={solo} title={"Solo Leveling"} vol={"volume 17"} price={"9,90€"} />
                 </div>
-                <div className="flex justify-center pt-6">
-                    <button className="bg-blue-japan text-white px-5 py-2 rounded-xl text-xl font-semibold hover:bg-light-blue-japan">Tutte le novità</button>
+                <div className="flex justify-center pt-8">
+                    <Link to="/Novità">
+                        <button className="bg-blue-japan text-white px-5 py-2 rounded-xl text-xl font-semibold hover:bg-light-blue-japan">Tutte le novità</button>
+                    </Link>
                 </div>
                 <h1 className="text-center text-7xl font-bold my-5 pt-9">Consigliati</h1>
                 <div className="cursor-pointer flex justify-center gap-[120px]">
@@ -43,8 +46,10 @@ export default function Home() {
                     <Card img={tokyo} title={"Tokyo Revengers"} vol={"volume 1"} price={"6,50€"} />
                     <Card img={mash} title={"Mashle"} vol={"volume 1"} price={"5,20€"} />
                 </div>
-                <div className="flex justify-center pt-6">
-                    <button className="bg-blue-japan text-white px-5 py-2 rounded-xl text-xl font-semibold hover:bg-light-blue-japan">Catalogo</button>
+                <div className="flex justify-center pt-8">
+                    <Link to="/Catalogo">
+                        <button className="bg-blue-japan text-white px-5 py-2 rounded-xl text-xl font-semibold hover:bg-light-blue-japan">Catalogo</button>
+                    </Link>
                 </div>
                 <h1 className="text-center text-7xl font-bold my-5 pt-9">Funko Pop</h1>
                 <div className="cursor-pointer flex justify-center gap-[120px]">
@@ -53,10 +58,11 @@ export default function Home() {
                     <Card img={tengen} title={"Tengen Uzui"} vol={"Demon Slayer"} price={"18,90€"} />
                     <Card img={goku} title={"Super Saiyan Goku"} vol={"Dragon Ball"} price={"18,90€"} />
                 </div>
-                <div className="flex justify-center pt-6">
-                    <button className="bg-blue-japan text-white px-5 py-2 rounded-xl text-xl font-semibold hover:bg-light-blue-japan">Altri Funko</button>
+                <div className="flex justify-center pt-8 pb-10">
+                    <Link to="/Funko">
+                        <button className="bg-blue-japan text-white px-5 py-2 rounded-xl text-xl font-semibold hover:bg-light-blue-japan">Altri Funko</button>
+                    </Link>
                 </div>
-                <h1 className="text-center text-7xl font-bold my-5 pt-9">Recensioni</h1>
             </div>
             <Footer />
         </>
