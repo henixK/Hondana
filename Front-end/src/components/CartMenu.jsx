@@ -14,7 +14,7 @@ export default function () {
                 <NavigationMenuList className=" space-y-10">
                     <SheetClose className="left-0"/>
                         <Link to="/Carello">
-                            <Button>Vai al checkout</Button>
+                            <Button className="bg-blue-japan">Vai al checkout</Button>
                         </Link>
                 </NavigationMenuList>
             </SheetContent>
