@@ -1,3 +1,21 @@
 {
-    "java.compile.nullAnalysis.mode": "automatic"
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "hondana",
+            "database": "hondana",
+            "username": "root",
+            "password": "",
+            "connectionTimeout": 30
+        }
+    ],
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
