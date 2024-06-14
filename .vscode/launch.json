@@ -10,6 +10,16 @@
             "projectName": "hondana",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HondanaApplication<hondana_DB>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.demo.HondanaApplication",
+            "projectName": "hondana_DB",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
